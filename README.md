@@ -20,9 +20,8 @@ a markdown directive for angular, use very fast `marked` to parse markdown.
 3. list3
     </markdown>
     <script src="bower_components/angular/angular.min.js"></script>
-    <script src="bower_components/angular-sanitize/angular-sanitize.min.js"></script>
     <script src="bower_components/marked/lib/marked.js"></script>
-    <script src="angular-markdown.js"></script>
+    <script src="angular.markdown.js"></script>
     <script src="demo.js"></script>
 </body>
 </html>

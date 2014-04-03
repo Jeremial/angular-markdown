@@ -1,6 +1,6 @@
 {
-  "name": "angular-markdown",
-  "main": "angular-markdown.js",
+  "name": "angular.markdown",
+  "main": "angular.markdown.js",
   "version": "0.0.1",
   "authors": [
     "Jeremial <jeremial90@gmail.com>"
