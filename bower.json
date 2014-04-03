@@ -1,0 +1,27 @@
+{
+  "name": "angular-markdown",
+  "main": "angular-markdown.js",
+  "version": "0.0.1",
+  "authors": [
+    "Jeremial <jeremial90@gmail.com>"
+  ],
+  "description": "markdown directive for angular",
+  "keywords": [
+    "angular",
+    "markdown",
+    "marked"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "homepage": "https://github.com/Jeremial/angular-markdown",
+  "dependencies": {
+    "marked": "~0.3.2",
+    "angular": "~1.2.15"
+  }
+}
