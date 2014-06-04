@@ -1,4 +1,4 @@
-angular.module('ngMarkdown', [])
+angular.module('meMarkdown', [])
     .directive('markdown', function(){
         return {
             restrict: 'AE',
