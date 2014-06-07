@@ -5,9 +5,20 @@
     <title>angular-markdown demo</title>
 </head>
 <body ng-controller="example">
-    <markdown ng-model="text"></markdown>
+    <markdown md="text"></markdown>
+
+    <div markdown>
+### h1标题
+属性用法
+
+1. list1
+2. list2
+3. list3
+    </div>
+
     <markdown>
 ### h2标题
+直接markdown文本用法
 
 1. list1
 2. list2

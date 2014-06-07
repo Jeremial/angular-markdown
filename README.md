@@ -11,9 +11,20 @@ a markdown directive for angular, use very fast `marked` to parse markdown.
     <title>angular-markdown demo</title>
 </head>
 <body ng-controller="example">
-    <markdown ng-model="text"></markdown>
+    <markdown md="text"></markdown>
+
+    <div markdown>
+### h1标题
+属性用法
+
+1. list1
+2. list2
+3. list3
+    </div>
+
     <markdown>
 ### h2标题
+直接markdown文本用法
 
 1. list1
 2. list2
@@ -31,7 +42,7 @@ a markdown directive for angular, use very fast `marked` to parse markdown.
 ```js
 var myApp = angular.module('myApp', ['meMarkdown'])
     .controller('example', function($scope){
-        $scope.text = '### 标题1\n\n- list1\n- list2';
+        $scope.text = '### 标题1\n标签用法\n\n- list1\n- list2';
     });
 ```
 
